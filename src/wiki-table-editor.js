@@ -4,7 +4,7 @@ import MultiBackend from 'react-dnd-multi-backend/lib/index';
 import * as Table from 'reactabular-table';
 import * as dnd from 'reactabular-dnd';
 import { cloneDeep, findIndex } from 'lodash';
-import draggableRow from './draggable-row.jsx';
+import draggableRow from './draggable-row.js';
 
 const DndRow = draggableRow('tr');
 class DndCell extends React.Component {
